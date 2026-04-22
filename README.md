@@ -19,6 +19,18 @@
 
 Terraform module for Google Cloud SQL PostgreSQL:
 
+- Scope: single zonal cluster
+- Features:
+  - Final backup on database deletion
+  - Use Google Secret Manager for root password
+  - Disk autoresize enabled
+  - Data API access disabled
+  - Automatic backup enabled
+  - No failover replica
+  - No read pool
+  - DBA database user for break-glass
+  - Enforced SSL connection
+
 ---
 
 ## 🛠 Contributing
